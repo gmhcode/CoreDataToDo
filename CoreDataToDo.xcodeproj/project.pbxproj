@@ -15,6 +15,8 @@
 		90C162EF23FF2F4300AA5FBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C162EE23FF2F4300AA5FBC /* Preview Assets.xcassets */; };
 		90C162F223FF2F4300AA5FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C162F023FF2F4300AA5FBC /* LaunchScreen.storyboard */; };
 		90C162FD23FF2F4300AA5FBC /* CoreDataToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C162FC23FF2F4300AA5FBC /* CoreDataToDoTests.swift */; };
+		90C1630823FF302900AA5FBC /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C1630723FF302900AA5FBC /* ToDoItem.swift */; };
+		90C1630C23FF3B3700AA5FBC /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C1630B23FF3B3700AA5FBC /* TodoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		90C162F823FF2F4300AA5FBC /* CoreDataToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C162FC23FF2F4300AA5FBC /* CoreDataToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataToDoTests.swift; sourceTree = "<group>"; };
 		90C162FE23FF2F4300AA5FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C1630723FF302900AA5FBC /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		90C1630B23FF3B3700AA5FBC /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				90C162E223FF2F4100AA5FBC /* AppDelegate.swift */,
 				90C162E423FF2F4100AA5FBC /* SceneDelegate.swift */,
 				90C162E923FF2F4100AA5FBC /* ContentView.swift */,
+				90C1630B23FF3B3700AA5FBC /* TodoItemView.swift */,
+				90C1630723FF302900AA5FBC /* ToDoItem.swift */,
 				90C162EB23FF2F4300AA5FBC /* Assets.xcassets */,
 				90C162F023FF2F4300AA5FBC /* LaunchScreen.storyboard */,
 				90C162F323FF2F4300AA5FBC /* Info.plist */,
@@ -213,8 +219,10 @@
 			files = (
 				90C162E323FF2F4100AA5FBC /* AppDelegate.swift in Sources */,
 				90C162E523FF2F4100AA5FBC /* SceneDelegate.swift in Sources */,
+				90C1630823FF302900AA5FBC /* ToDoItem.swift in Sources */,
 				90C162EA23FF2F4100AA5FBC /* ContentView.swift in Sources */,
 				90C162E823FF2F4100AA5FBC /* CoreDataToDo.xcdatamodeld in Sources */,
+				90C1630C23FF3B3700AA5FBC /* TodoItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
